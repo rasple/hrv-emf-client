@@ -1,3 +1,7 @@
+#all the imports
+import datetime
+import random
+from threading import Timer
 def on():
     time= datetime.datetime.now().isoformat() #current time
     print('on')
